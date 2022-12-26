@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
                 title: 'Flutter Weather',
                 debugShowCheckedModeBanner: false,
                 theme: state.appThemeMode == AppThemeMode.light
-                    ? ThemeData.light().copyWith(brightness: Brightness.dark)
+                    ? ThemeData.light().copyWith(brightness: Brightness.light)
                     : ThemeData.dark().copyWith(brightness: Brightness.dark),
                 home: const HomeScreen(),
               );
