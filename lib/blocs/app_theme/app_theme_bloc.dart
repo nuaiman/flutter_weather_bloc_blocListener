@@ -15,7 +15,7 @@ class AppThemeBloc extends Bloc<AppThemeEvent, AppThemeState> {
     if (currentTemp > kWarmOrNot) {
       add(const ToggleAppThemeEvent(appThemeMode: AppThemeMode.light));
     } else {
-      add(const ToggleAppThemeEvent(appThemeMode: AppThemeMode.light));
+      add(const ToggleAppThemeEvent(appThemeMode: AppThemeMode.dark));
     }
   }
 }
